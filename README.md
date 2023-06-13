@@ -41,4 +41,7 @@ enum Direction {
 }
 ```
 ### 6.What is the "as" keyword used for in TypeScript?
+"as" keyword used as type assertion. Also it is called type casting. Using "as" keyword it tells the compiler treat value as specific type what we mention.
 ### 7.Can you explain how to use "type guards" with "in" and "typeof" operators in TypeScript?   
+* "in" operator checks property exists in an object.
+* "typeof" operator checks the what type it has.
