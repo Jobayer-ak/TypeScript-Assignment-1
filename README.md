@@ -12,7 +12,7 @@ interface and type have similar puposes. Using both we can define the shape or s
 * we can redeclare existing interface with the same name and their members will be merged into a single interface. But, if we redeclare existing type with the same name, it will overwrite the previous definition.
 * interface can be implemented by classes where type cannot be. Type used to define compled types, unions, intersections and mapped types
 
-###Can you give an example of how to use generics in TypeScript?
+### Can you give an example of how to use generics in TypeScript?
 ```
 function greetings<T>(greet: T): T {
     return greet;
