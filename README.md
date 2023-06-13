@@ -23,7 +23,7 @@ console.log(greetings("Good Evening!!!"));
 * "unknown" type are not assignable to other types without explicit type checking or performing operations. But, "any" type can be assignable to any others type without any type checking. It doesn't need any type checking or perfoming any operations explicitly.
 * unknown type has more safety than any type. any type can lead to errors. 
 
-  ### 5.Can you give an example of how to use enums in TypeScript?
+### 5.Can you give an example of how to use enums in TypeScript?
 example: 
 ```
 enum Name {
