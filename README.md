@@ -13,8 +13,9 @@ interface and type have similar puposes. Using both we can define the shape or s
 * interface can be implemented by classes where type cannot be. Type used to define compled types, unions, intersections and mapped types
 
 ###Can you give an example of how to use generics in TypeScript?
+```
 function greetings<T>(greet: T): T {
     return greet;
   }
-  console.log(greetings("Good Evening!!!"));
-  
+console.log(greetings("Good Evening!!!"));
+```  
